@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amazon Clone</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    
+    <header class="header">
+      <div class="header__logo">
+        <img
+          src="https://pngimg.com/uploads/amazon/amazon_PNG11.png"
+          alt="Amazon Logo"
+        />
+      </div>
+
+      <div class="header__search">
+        <input type="text" placeholder="Search Amazon" />
+        <span class="material-icons search__icon">search</span>
+      </div>
+
+      <div class="header__nav">
+        <div class="nav__item">
+          <span class="nav__lineOne">Hello, Guest</span>
+          <span class="nav__lineTwo">Home</span>
+        </div>
+
+         <div class="nav__item">
+            <span class="nav__lineOne">   </span>
+          <span class="nav__lineOne"><h3>About</h3></span>
+        
+        </div>
+
+        <div class="nav__item">
+            
+          <span class="nav__lineOne">Returns</span>
+          <span class="nav__lineTwo">& Orders</span>
+        </div>
+         
+        <div class="nav__item basket">
+          <span class="material-icons">shopping_cart</span>
+          <span class="basket__count">0</span>
+        </div>
+      </div>
+    </header>
+
+
+    <section class="hero">
+      <img
+        src="https://tse3.mm.bing.net/th/id/OIP.KrNJfzo9h1P7IfOZOR6GHwHaCp?pid=Api&P=0&h=180"
+        alt="Amazon Banner"
+      />
+    </section>
+
+
+    <section class="products">
+      <div class="product">
+        <img
+          src="https://m.media-amazon.com/images/I/81-QB7nDh4L.jpg"
+          alt="The Lean Startup"
+        />
+        <h2>The Lean Startup</h2>
+        <p class="price">₹234</p>
+        <p class="rating">⭐⭐⭐⭐⭐</p>
+        <button onclick="addToCart()">Add to Cart</button>
+      </div>
+
+      <div class="product">
+        <img
+          src="https://tse3.mm.bing.net/th/id/OIP.FvrmsToj2nRXhrKhs_d-zwHaHa?pid=Api&P=0&h=180"
+          alt="Samsung Galaxy Buds"
+        />
+        <h2>Samsung Galaxy Buds</h2>
+        <p class="price">₹2199</p>
+        <p class="rating">⭐⭐⭐⭐</p>
+        <button onclick="addToCart()">Add to Cart</button>
+      </div>
+
+      <div class="product">
+        <img
+          src="https://m.media-amazon.com/images/I/61uA2UVnYWL._AC_SL1500_.jpg"
+          alt="iPad Air"
+        />
+        <h2>Apple iPad Air (5th Gen)</h2>
+        <p class="price">₹50999</p>
+        <p class="rating">⭐⭐⭐⭐⭐</p>
+        <button onclick="addToCart()">Add to Cart</button>
+      </div>
+
+      <div class="product">
+        <img
+          src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6533/6533161cv12d.jpg"
+          alt="Sony Headphones"
+        />
+        <h2>Sony WH-1000XM5 Headphones</h2>
+        <p class="price">₹6999</p>
+        <p class="rating">⭐⭐⭐⭐⭐</p>
+        <button onclick="addToCart()">Add to Cart</button>
+      </div>
+
+      <div class="product">
+        <img
+          src="https://pctech.co.in/image/cache/catalog/Laptops/DELL/dell-inspiron-14-5430-laptop-5-800x800w.jpg"
+          alt="Dell Laptop"
+        />
+        <h2>Dell inspiron 5430 laptop</h2>
+        <p class="price">₹63999</p>
+        <p class="rating">⭐⭐⭐⭐⭐</p>
+        <button onclick="addToCart()">Add to Cart</button>
+      </div>
+
+      <div class="product">
+        <img
+          src="https://www.hp.com/wcsstore/hpusstore/Treatment/mdps/Q3FY21_omen_victus16/omen_victus_heroImage1.png"
+          alt="Hp Laptop"
+        />
+        <h2>Hp victus gaming laptop</h2>
+        <p class="price">₹85999</p>
+        <p class="rating">⭐⭐⭐⭐⭐</p>
+        <button onclick="addToCart()">Add to Cart</button>
+      </div>
+
+
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
